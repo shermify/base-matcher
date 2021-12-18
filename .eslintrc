@@ -1,6 +1,5 @@
 {
     "extends": "react-app",
-    "plugins": ["prettier"],
     "rules": {
       "semi": 0,
       "no-console": 0,
