@@ -29,7 +29,7 @@ const Sequence = function ({ name, id, matchIndices, bases, matchLength }) {
       </div>
       <h3 className="align-left">Match count: {matchIndices.length}</h3>
       <SeqViz
-        style={{ height: 300, width: 1000 }}
+        style={{ height: 300, width: 1000, marginBottom: 40 }}
         seq={bases}
         showComplement={false}
         annotations={matchIndices.map((i) => ({
